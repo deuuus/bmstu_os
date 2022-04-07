@@ -1,1 +1,0 @@
-cmd_/home/polina/sem_06/bmstu_os/lab_03/part_01/Module.symvers := sed 's/\.ko$$/\.o/' /home/polina/sem_06/bmstu_os/lab_03/part_01/modules.order | scripts/mod/modpost -m -a  -o /home/polina/sem_06/bmstu_os/lab_03/part_01/Module.symvers -e -i Module.symvers   -T -
