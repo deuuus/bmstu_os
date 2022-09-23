@@ -1,6 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/polina/sem_06/bmstu_os/lab_08'
-make: Leaving directory '/home/polina/sem_06/bmstu_os/lab_08'
- 
-make: *** No targets specified and no makefile found.  Stop.
-
