@@ -1,0 +1,43 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/polina/sem_06/bmstu_os/lab_09/tasklet'
+ 
+make -C /lib/modules/5.13.0-48-generic/build  M=/home/polina/sem_06/bmstu_os/lab_09/tasklet modules 
+ 
+make[1]: Entering directory '/usr/src/linux-headers-5.13.0-48-generic'
+ 
+make -f ./scripts/Makefile.build obj=/home/polina/sem_06/bmstu_os/lab_09/tasklet \
+single-build= \
+need-builtin=1 need-modorder=1
+ 
+:
+set -e;   
+ 
+set -e;   { echo  /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.o;  echo; } > /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.mod; printf '%s\n' 'cmd_/home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.mod := { echo  /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.o;  echo; } > /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.mod' > /home/polina/sem_06/bmstu_os/lab_09/tasklet/.tasklet.mod.cmd
+set -e;   {   echo /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.ko; :; } | awk '!x[$0]++' - > /home/polina/sem_06/bmstu_os/lab_09/tasklet/modules.order; printf '%s\n' 'cmd_/home/polina/sem_06/bmstu_os/lab_09/tasklet/modules.order := {   echo /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.ko; :; } | awk '\''!x[$$0]++'\'' - > /home/polina/sem_06/bmstu_os/lab_09/tasklet/modules.order' > /home/polina/sem_06/bmstu_os/lab_09/tasklet/.modules.order.cmd
+:
+ 
+:
+sh ./scripts/modules-check.sh /home/polina/sem_06/bmstu_os/lab_09/tasklet/modules.order
+make -f ./scripts/Makefile.modpost
+ 
+:
+make -f ./scripts/Makefile.modfinal
+ 
+:
+ 
+set -e;  echo '  LD [M]  /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.ko';  ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.ko /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.o /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.mod.o;  true; printf '%s\n' 'cmd_/home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.ko /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.o /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.mod.o;  true' > /home/polina/sem_06/bmstu_os/lab_09/tasklet/.tasklet.ko.cmd
+ 
+  LD [M]  /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.ko
+ 
+set -e;  echo '  BTF [M] /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.ko';  if [ -f vmlinux ]; then LLVM_OBJCOPY="objcopy" pahole -J --btf_base vmlinux /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.ko; else printf "Skipping BTF generation for %s due to unavailability of vmlinux\n" /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.ko 1>&2; fi;
+ 
+  BTF [M] /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.ko
+ 
+Skipping BTF generation for /home/polina/sem_06/bmstu_os/lab_09/tasklet/tasklet.ko due to unavailability of vmlinux
+
+:
+ 
+make[1]: Leaving directory '/usr/src/linux-headers-5.13.0-48-generic'
+ 
+make: Leaving directory '/home/polina/sem_06/bmstu_os/lab_09/tasklet'
+ 

@@ -1,0 +1,74 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}\textbf {Семинар №1. 10 февраля 2022}}{4}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}\textbf {Лекция №1. 19 февраля 2022}}{5}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Файловая подсистема Linux}{5}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}\textbf {Семинар №2. 24 февраля 2022}}{9}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}\textbf {Лекция №2. 5 марта 2022}}{10}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}\textbf {Семинар №3. 10 марта 2022}}{11}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}\textbf {Лекция №3. 19 марта 2022}}{12}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}\textbf {Семинар №4. 24 марта 2022}}{13}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}\textbf {Лекция №4. 2 апреля 2022}}{14}{chapter.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}\textbf {Семинар 7 апреля 2022}}{15}{chapter.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}\textbf {Лекция 16 апреля 2022}}{16}{chapter.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.1}Структура dentry}{16}{section.10.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.2}Кэш inode (слаб)}{17}{section.10.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.3}Структура FILE}{19}{section.10.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {11}\textbf {Семинар 21 апреля 2022}}{20}{chapter.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.1}Буфферизованный/небуфферизованный ввод-вывод (открытые файла)}{20}{section.11.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {12}\textbf {Лекция 30 апреля 2022}}{25}{chapter.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.1}Прерывания}{25}{section.12.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.2}Soft irq}{28}{section.12.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {13}\textbf {Семинар 5 мая 2022}}{30}{chapter.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {13.1}Системный вызов open (продолжение)}{30}{section.13.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {13.2}Разработка Virtual File System (VFS)}{30}{section.13.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {14}\textbf {Лекция 14 мая 2022}}{32}{chapter.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14.1}Прерывания. Механизмы обслуживания прерываний в системе}{32}{section.14.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14.2}Tasklet-ы}{33}{section.14.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14.3}Workqeue (Очереди работ)}{35}{section.14.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {15}\textbf {Семинар 19 мая 2022}}{38}{chapter.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {15.1}Сокеты}{38}{section.15.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {16}\textbf {Лекция 28 мая 2022}}{44}{chapter.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {16.1}Прерывания. Механизмы обслуживания прерываний в системе. Очереди работ.}{44}{section.16.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {16.2}5 моделей ввода-вывода}{45}{section.16.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {17}\textbf {Семинар 2 июня 2022}}{51}{chapter.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {17.1}Сокеты в файловом пространстве имен}{51}{section.17.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {17.2}Мультиплексирование ввода-вывода}{54}{section.17.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {18}\textbf {Лекция 4 июня 2022}}{55}{chapter.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {18.1}Специальные файлы устройств.}{55}{section.18.1}%

@@ -1,0 +1,1 @@
+cmd_/home/polina/sem_06/bmstu_os/lab_07/myfs.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/polina/sem_06/bmstu_os/lab_07/myfs.ko /home/polina/sem_06/bmstu_os/lab_07/myfs.o /home/polina/sem_06/bmstu_os/lab_07/myfs.mod.o;  true
